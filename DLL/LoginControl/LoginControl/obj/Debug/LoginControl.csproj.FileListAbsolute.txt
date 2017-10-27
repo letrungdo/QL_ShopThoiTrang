@@ -1,0 +1,16 @@
+c:\users\do\source\repos\LoginControl\LoginControl\bin\Debug\LoginControl.dll
+c:\users\do\source\repos\LoginControl\LoginControl\bin\Debug\LoginControl.pdb
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.csprojResolveAssemblyReference.cache
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.Login_Control.resources
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.csproj.GenerateResource.Cache
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.csproj.CoreCompileInputs.cache
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.dll
+c:\users\do\source\repos\LoginControl\LoginControl\obj\Debug\LoginControl.pdb
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\bin\Debug\LoginControl.dll
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\bin\Debug\LoginControl.pdb
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.csprojResolveAssemblyReference.cache
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.Login_Control.resources
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.csproj.GenerateResource.Cache
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.csproj.CoreCompileInputs.cache
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.dll
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DLL\LoginControl\LoginControl\obj\Debug\LoginControl.pdb

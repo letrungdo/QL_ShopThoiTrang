@@ -1,0 +1,9 @@
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\bin\Debug\App.config
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\bin\Debug\DATA.exe.config
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\bin\Debug\DATA.exe
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\bin\Debug\DATA.pdb
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\obj\Debug\DATA.Properties.Resources.resources
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\obj\Debug\DATA.csproj.GenerateResource.Cache
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\obj\Debug\DATA.exe
+C:\Users\DO\source\repos\QL_ShopThoiTrang\QL_ShopThoiTrang\DATA\obj\Debug\DATA.pdb

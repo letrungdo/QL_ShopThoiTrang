@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Hang">
+  <DataContextMoniker Name="/HangDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a60d4508-110d-473c-b6ea-0f490764a087" absoluteBounds="1, 0.5, 2, 4.2708154296875">
+      <DataClassMoniker Name="/HangDataContext/MatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6589537a-6666-4601-bccd-5e2ef8a7217b" absoluteBounds="1.0150000000000001, 0.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9812f5ee-0ac5-4288-a801-bd337df91d72" absoluteBounds="3.875, 3.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/HangDataContext/DonViTinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21601f87-2d46-469e-b816-ff04dd5ead4e" absoluteBounds="3.8899999999999997, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 4.26040771484375); (3 : 4.26040771484375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HangDataContext/DonViTinh/DonViTinh_MatHang" />
+      <nodes>
+        <classShapeMoniker Id="9812f5ee-0ac5-4288-a801-bd337df91d72" />
+        <classShapeMoniker Id="a60d4508-110d-473c-b6ea-0f490764a087" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="20f786dc-e0ee-4d6a-b70a-cdc8d99511a2" absoluteBounds="6, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/HangDataContext/DM_NhanHieu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="adcfbe3f-a252-4557-af5d-126eb582b915" absoluteBounds="6.015, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 2.89349609375); (3 : 2.89349609375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HangDataContext/DM_NhanHieu/DM_NhanHieu_MatHang" />
+      <nodes>
+        <classShapeMoniker Id="20f786dc-e0ee-4d6a-b70a-cdc8d99511a2" />
+        <classShapeMoniker Id="a60d4508-110d-473c-b6ea-0f490764a087" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="871afc98-e392-4b45-af8f-1019a868ee92" absoluteBounds="3.625, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HangDataContext/LoaiMatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d090bd3-12d0-4d55-8b3c-cde7fba54dee" absoluteBounds="3.6399999999999997, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 1.28929768880208); (3 : 1.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HangDataContext/LoaiMatHang/LoaiMatHang_MatHang" />
+      <nodes>
+        <classShapeMoniker Id="871afc98-e392-4b45-af8f-1019a868ee92" />
+        <classShapeMoniker Id="a60d4508-110d-473c-b6ea-0f490764a087" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

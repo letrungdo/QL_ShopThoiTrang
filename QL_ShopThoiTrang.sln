@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_ShopThoiTrang", "QL_ShopThoiTrang\QL_ShopThoiTrang.csproj", "{A517FDC3-A050-4ED7-AC55-F601B25D1548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGIC", "LOGIC\LOGIC.csproj", "{54284910-E0A3-4F37-95A5-E3582B381894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATA", "DATA\DATA.csproj", "{2ACF4B7E-3133-494D-850E-C7E0C1878045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A517FDC3-A050-4ED7-AC55-F601B25D1548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A517FDC3-A050-4ED7-AC55-F601B25D1548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A517FDC3-A050-4ED7-AC55-F601B25D1548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A517FDC3-A050-4ED7-AC55-F601B25D1548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54284910-E0A3-4F37-95A5-E3582B381894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54284910-E0A3-4F37-95A5-E3582B381894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54284910-E0A3-4F37-95A5-E3582B381894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54284910-E0A3-4F37-95A5-E3582B381894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACF4B7E-3133-494D-850E-C7E0C1878045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACF4B7E-3133-494D-850E-C7E0C1878045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACF4B7E-3133-494D-850E-C7E0C1878045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACF4B7E-3133-494D-850E-C7E0C1878045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0C1E216-5063-4CDA-A264-3941C9B4C1C1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://letrungdo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DATA\\DATA.csproj
+		SccProjectName1 = DATA
+		SccLocalPath1 = DATA
+		SccProjectUniqueName2 = LOGIC\\LOGIC.csproj
+		SccProjectName2 = LOGIC
+		SccLocalPath2 = LOGIC
+		SccProjectUniqueName3 = QL_ShopThoiTrang\\QL_ShopThoiTrang.csproj
+		SccProjectName3 = QL_ShopThoiTrang
+		SccLocalPath3 = QL_ShopThoiTrang
+	EndGlobalSection
+EndGlobal

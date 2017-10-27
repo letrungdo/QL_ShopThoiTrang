@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_ShopThoiTrang" Class="HangDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=171.249.186.162,49170;Initial Catalog=QL_ShopThoiTrang;Persist Security Info=True;User ID=sa" SettingsObjectName="DATA.Properties.Settings" SettingsPropertyName="QL_ShopThoiTrangConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MatHang" Member="MatHangs">
+    <Type Name="MatHang">
+      <Column Name="MaMH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaNH" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="MaLoaiMH" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MaDVT" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="MaKM" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="TenMH" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="GiaVon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GiaBanSi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GiaBanLe" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GiaKM" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="XuatXu" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ChatLieu" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DanhCho" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="KichThuoc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Barcode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TonKho" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DonViTinh_MatHang" Member="DonViTinh" ThisKey="MaDVT" OtherKey="MaDVT" Type="DonViTinh" IsForeignKey="true" />
+      <Association Name="DM_NhanHieu_MatHang" Member="DM_NhanHieu" ThisKey="MaNH" OtherKey="MaNH" Type="DM_NhanHieu" IsForeignKey="true" />
+      <Association Name="LoaiMatHang_MatHang" Member="LoaiMatHang" ThisKey="MaLoaiMH" OtherKey="MaLoaiMH" Type="LoaiMatHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DonViTinh" Member="DonViTinhs">
+    <Type Name="DonViTinh">
+      <Column Name="MaDVT" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenDVT" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="HinhAnh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="DonViTinh_MatHang" Member="MatHangs" ThisKey="MaDVT" OtherKey="MaDVT" Type="MatHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DM_NhanHieu" Member="DM_NhanHieus">
+    <Type Name="DM_NhanHieu">
+      <Column Name="MaNH" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNH" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="HinhAnh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="DM_NhanHieu_MatHang" Member="MatHangs" ThisKey="MaNH" OtherKey="MaNH" Type="MatHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiMatHang" Member="LoaiMatHangs">
+    <Type Name="LoaiMatHang">
+      <Column Name="MaLoaiMH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiMH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HinhAnh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IsDel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="LoaiMatHang_MatHang" Member="MatHangs" ThisKey="MaLoaiMH" OtherKey="MaLoaiMH" Type="MatHang" />
+    </Type>
+  </Table>
+</Database>
